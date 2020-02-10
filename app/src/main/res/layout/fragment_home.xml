@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/left"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold|italic"
+            android:textSize="25sp"
+            android:id="@+id/positivebtn"
+            android:layout_margin="3dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/ripple_effect"
+            android:text="@string/positive_qoutes"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/lifebtn"
+            android:textStyle="bold|italic"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/lifeqoutes"
+            android:text="@string/life_qoutes"
+
+            android:layout_margin="3dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:id="@+id/friendshipbtn"
+            android:layout_margin="3dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/friendshipqoutes"
+            android:text="@string/friendship_qoutes"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold|italic"
+            android:textSize="23sp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:id="@+id/motivationbtn"
+            android:layout_margin="3dp"
+            android:background="@drawable/motivationqoutes"
+            android:text="@string/motivational_qoutes"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold|italic"
+            android:textSize="25sp"
+            android:layout_margin="3dp"
+            android:padding="5dp"
+            android:id="@+id/relatonshipbtn"
+            android:textColor="@android:color/white"
+            android:background="@drawable/relationshipqoutes"
+            android:text="@string/relationship_qoutes"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold|italic"
+            android:textSize="23sp"
+            android:id="@+id/inspirationalbtn"
+            android:textColor="@android:color/white"
+            android:background="@drawable/inspirationqoutes"
+            android:text="@string/inspirational_qoutes"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

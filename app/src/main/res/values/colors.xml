@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#975C2615</color>
+    <color name="colorPrimaryDark">#9A491406</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="LifeQoutes">#3EFC0000</color>
+
+    <color name="PositiveQoutes">#3E0004FC</color>
+    <color name="InspirationalQoutes">#3E11FC00</color>
+    <color name="FriendshipQoutes">#3EFCDA00</color>
+    <color name="MoticationalQOutes">#3ED600FC</color>
+    <color name="Relationshipqouts">#3EFF5404</color>
+
+
+    <color name="buttonpressed">#000000</color>
+    <color name="buttonnotpressed">#000000</color>
+
+    <color name="whitetransparent">#68FFFFFF</color>
+
+    <color name="whitetrasparent">#3CFFFFFF</color>
+
+</resources>
